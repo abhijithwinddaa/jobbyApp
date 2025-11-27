@@ -1,4 +1,8 @@
 In this project, let's build a **Jobby App** by applying the concepts we have learned till now.
+
+project video:- https://assets.ccbp.in/frontend/content/react-js/jobby-app-success-output-v0.mp4
+
+###
 LIVE LINK: https://winddaajobs.ccbp.tech/login
 to login use : username:- rahul password:-rahul@2021 
 ### Refer to videos below:
