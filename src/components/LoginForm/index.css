@@ -1,0 +1,99 @@
+.login-form-container {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.form-container {
+  background-color: #272727;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 430px;
+  box-sizing: border-box;
+}
+
+.login-website-logo-desktop-img {
+  width: 120px;
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .form-container {
+    padding: 40px;
+  }
+  .login-website-logo-desktop-img {
+    width: 150px;
+    margin-bottom: 30px;
+  }
+}
+
+.input-container {
+  width: 100%;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+}
+
+.input-label {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #f8fafc;
+  margin-bottom: 6px;
+  letter-spacing: 0.02em;
+}
+
+.login-input-field {
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  height: 40px;
+  padding: 8px 12px;
+  background-color: transparent;
+  border: 1px solid #64748b;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #f8fafc;
+  outline: none;
+  cursor: text;
+}
+
+.login-input-field:focus {
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.12);
+  border-color: #6366f1;
+}
+
+.login-button {
+  width: 100%;
+  background-color: #6366f1;
+  color: #f8fafc;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.login-button:hover {
+  transform: translateY(-1px);
+}
+
+.error-message {
+  margin-top: 2px;
+  margin-left: 4px;
+  color: #ff0b37;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+}
