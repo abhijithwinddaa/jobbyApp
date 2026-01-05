@@ -3,7 +3,7 @@ In this project, let's build a **Jobby App** by applying the concepts we have le
 project video:- https://assets.ccbp.in/frontend/content/react-js/jobby-app-success-output-v0.mp4
 
 ###
-LIVE LINK: https://winddaajobs.ccbp.tech/login
+LIVE LINK: https://jobbywinddaa.ccbp.tech/login
 to login use : username:- rahul password:-rahul@2021 
 ### Refer to videos below:
 
